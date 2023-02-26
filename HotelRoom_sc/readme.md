@@ -8,4 +8,4 @@ Ether - pay smart contract /
 modifiers\
 visibility \
 events \
-enums \
+enums
