@@ -4,8 +4,8 @@ open room and allow them to occupy
 
 ## Topics Covered
 
-Ether - pay smart contract
-modifiers
-visibility
-events
-enums
+Ether - pay smart contract /
+modifiers\
+visibility \
+events \
+enums \
