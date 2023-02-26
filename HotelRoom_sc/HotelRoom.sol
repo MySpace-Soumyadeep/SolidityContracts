@@ -37,10 +37,8 @@ _;
 // }
 
 
+//receive special function will be triggered whenever we pay to this smart contract
 receive() external payable onlyWhileVacant costs(2 ether) {
-    //check price and check status
-    
-    // require(msg.value >= 2 ether, "Not enough ether provided");
     owner.transfer(msg.value);
     currStatus= Status.Occupied;
     emit Occupy(msg.sender, msg.value);
